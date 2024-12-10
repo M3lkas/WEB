@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровые приставки</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="register.js"></script>
+    <script src="burger.js"></script>
+</head>
+<body>
+    <header>
+        <img src="icon.jpg" alt="Логотип" width="100" height="100">
+        <h1>Современные игровые приставки</h1>
+        <input type="checkbox" id="burger-checkbox">
+    <label class="burger" for="burger-checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="consoles.html">Приставки</a></li>
+                <li><a href="games.html">Игры</a></li>
+                <li><a href="specs.html">Характеристики</a></li>
+                <li><a href="news.html">Новости</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <h2>Добро пожаловать в мир игровых приставок</h2>
+        <p>Здесь вы найдёте информацию о современных игровых консолях, их характеристиках и лучших играх.</p>
+        <div class="registration-container">
+            <h2>Регистрация</h2>
+            <form id="registrationForm" class="registration-form">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" id="username" name="username" placeholder="Введите имя">
+        
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" placeholder="Введите email">
+        
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" placeholder="Введите пароль">
+        
+                <label for="confirm-password">Подтвердите пароль:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Введите пароль ещё раз">
+        
+                <button type="button" id="registerButton">Зарегистрироваться</button>
+            </form>
+            <div id="notification" class="notification"></div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href="#" class="footer-button">VK</a>
+                <a href="#" class="footer-button">Ok</a>
+                <a href="#" class="footer-button">Dzen</a>
+            </div>
+            <div class="footer-contact">
+                <p>Свяжитесь с нами по телефону: +7 (999) 000-00-00</p>
+                <p>Или отправьте письмо на <a href="mailto:info@furniture.com">info@console.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
